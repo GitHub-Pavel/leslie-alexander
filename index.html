@@ -7,13 +7,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" href="css/main.min.css">
 </head>
-<body>
+<body class="ov-h">
   <header>
     <div class="container">
       <div class="header">
-        <a href="/" class="logo">
+        <a href="/index.html" class="logo">
           <div class="logo__icon">
             <img src="img/mail.png" alt="mail">
           </div>
@@ -23,8 +27,8 @@
         <!-- /.logo -->
         <nav class="main-menu">
           <ul>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li><a href="/works.html">Works</a></li>
+            <li><a href="/services.html">Services</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -41,204 +45,209 @@
     <!-- ./container -->
   </header>
 
-  <section>
-    <div class="container-fluid">
-      <div class="hero">
-        <div class="hero__container">
-          <div class="container">
-            <div class="hero__left">
-              <div class="hero__text">Hello, I’m</div>
-              <h1 class="hero__title">Leslie<br> Alexander <span class="text--red">.</span></h1>
-              <p class="text hero__description">Freelance user interface designer from India. I help brands turn their ideas into high quality products.</p>
-              <div class="hero__btn-wrapper">
-                <a href="#" class="btn hero__btn">Get in Touch</a>
-                <a href="#" class="btn btn--empty hero__btn">Download CV</a>
+  <div class="wrapper animate__animated animate__fadeInUp animate__slower">
+    <section>
+      <div class="container-fluid">
+        <div class="hero">
+          <div class="hero__container">
+            <div class="container">
+              <div class="hero__left">
+                <div class="hero__text">Hello, I’m</div>
+                <h1 class="hero__title">Leslie<br> Alexander <span class="text--red">.</span></h1>
+                <p class="text hero__description">Freelance user interface designer from India. I help brands turn their ideas into high quality products.</p>
+                <div class="hero__btn-wrapper">
+                  <a href="#" class="btn hero__btn">Get in Touch</a>
+                  <a href="#" class="btn btn--empty hero__btn">Download CV</a>
+                </div>
+                <!-- /.hero__btn-wrapper -->
               </div>
-              <!-- /.hero__btn-wrapper -->
+              <!-- /.hero__left -->
+              <div class="hero__right">
+                <img class="hero__img" src="img/header/person.png" alt="Leslie Alexander">
+              </div>
+              <!-- /.hero__right -->
             </div>
-            <!-- /.hero__left -->
-            <div class="hero__right">
-              <img class="hero__img" src="img/header/person.png" alt="Leslie Alexander">
-            </div>
-            <!-- /.hero__right -->
+            <!-- /.container -->
           </div>
-          <!-- /.container -->
+          <!-- /.hero__container -->
         </div>
-        <!-- /.hero__container -->
+        <!-- /.hero -->
       </div>
-      <!-- /.hero -->
-    </div>
-    <!-- /.container -->
-  </section>
-
-  <section class="section benefit">
-    <div class="container">
-      <div class="benefit__row">
-        <div class="benefit__item">
-          <h3>5+</h3>
-          <h5>Years Experience</h5>
+      <!-- /.container -->
+    </section>
+  
+    <section class="section benefit">
+      <div class="container">
+        <div class="benefit__row">
+          <div class="benefit__item">
+            <h3>5+</h3>
+            <h5>Years Experience</h5>
+          </div>
+          <!-- /.benefit__item -->
+          <div class="benefit__item">
+            <h3>80+</h3>
+            <h5>Projects Handled</h5>
+          </div>
+          <!-- /.benefit__item -->
+          <div class="benefit__item">
+            <h3>13</h3>
+            <h5>Awards & Recognition</h5>
+          </div>
+          <!-- /.benefit__item -->
         </div>
-        <!-- /.benefit__item -->
-        <div class="benefit__item">
-          <h3>80+</h3>
-          <h5>Projects Handled</h5>
-        </div>
-        <!-- /.benefit__item -->
-        <div class="benefit__item">
-          <h3>13</h3>
-          <h5>Awards & Recognition</h5>
-        </div>
-        <!-- /.benefit__item -->
+        <!-- /.benefit__row -->
       </div>
-      <!-- /.benefit__row -->
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /.section benefit -->
-
-  <section class="section works">
-    <div class="container">
-      <div class="works__row">
-        <div class="works__left">
-          <h2>My Recent Works <span class="text--red">.</span></h2>
-          <div class="works__items">
-            <div class="works-item works__item">
-              <a href="#" class="works-item__img">
-                <img src="img/works/2.jpg" alt="works-item">
-              </a>
-              <h4 class="works-item__title"><a href="#">Blaze</a></h4>
-              <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
+      <!-- /.container -->
+    </section>
+    <!-- /.section benefit -->
+  
+    <section class="section works">
+      <div class="container">
+        <div class="works__row">
+          <div class="works__left">
+            <h2 class="wow animate__fadeInUp">My Recent Works <span class="text--red">.</span></h2>
+            <div class="works__items">
+              <div class="works-item works__item wow animate__fadeInUp">
+                <a href="#" class="works-item__img">
+                  <img src="img/works/2.jpg" alt="works-item">
+                </a>
+                <h4 class="works-item__title"><a href="#">Blaze</a></h4>
+                <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
+              </div>
+              <!-- /.works-item works__item -->
+              <div class="works-item works__item wow animate__fadeInUp">
+                <a href="#" class="works-item__img">
+                  <img src="img/works/3.jpg" alt="works-item">
+                </a>
+                <h4 class="works-item__title"><a href="#">Blaze</a></h4>
+                <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
+              </div>
+              <!-- /.works-item works__item -->
             </div>
-            <!-- /.works-item works__item -->
-            <div class="works-item works__item">
-              <a href="#" class="works-item__img">
-                <img src="img/works/3.jpg" alt="works-item">
-              </a>
-              <h4 class="works-item__title"><a href="#">Blaze</a></h4>
-              <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
-            </div>
-            <!-- /.works-item works__item -->
+            <!-- /.works__items -->
           </div>
-          <!-- /.works__items -->
-        </div>
-        <!-- /.works__left -->
-        <div class="works__right">
-          <div class="works__items">
-            <div class="works-item works__item">
-              <a href="#" class="works-item__img">
-                <img src="img/works/0.jpg" alt="works-item">
-              </a>
-              <h4 class="works-item__title"><a href="#">Tinder Dark Mode - Redesign</a></h4>
-              <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
+          <!-- /.works__left -->
+          <div class="works__right">
+            <div class="works__items">
+              <div class="works-item works__item wow animate__fadeInUp">
+                <a href="#" class="works-item__img">
+                  <img src="img/works/0.jpg" alt="works-item">
+                </a>
+                <h4 class="works-item__title"><a href="#">Tinder Dark Mode - Redesign</a></h4>
+                <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
+              </div>
+              <!-- /.works-item works__item -->
+              <div class="works-item works__item wow animate__fadeInUp">
+                <a href="#" class="works-item__img">
+                  <img src="img/works/1.jpg" alt="works-item">
+                </a>
+                <h4 class="works-item__title"><a href="#">Blaze</a></h4>
+                <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
+              </div>
+              <!-- /.works-item works__item -->
             </div>
-            <!-- /.works-item works__item -->
-            <div class="works-item works__item">
-              <a href="#" class="works-item__img">
-                <img src="img/works/1.jpg" alt="works-item">
-              </a>
-              <h4 class="works-item__title"><a href="#">Blaze</a></h4>
-              <p class="works-item__description">This template is made for Flowbase and can only be purchased from there. Build a beauitful site for your technology business today using the Blaze Template!</p>
-            </div>
-            <!-- /.works-item works__item -->
+            <!-- /.works__items -->
+            <a class="btn-works works__btn wow animate__fadeInUp" href="works.html">View all projects</a>
           </div>
-          <!-- /.works__items -->
-          <a class="btn-works works__btn" href="works.html">View all projects</a>
+          <!-- /.works__right -->
         </div>
-        <!-- /.works__right -->
+        <!-- /.works__row -->
       </div>
-      <!-- /.works__row -->
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /.section works -->
-
-  <section class="section section--grey">
-    <div class="container">
-      <div class="testimonials"> 
-        <h2>Customer Testimonials <span class="text--red">.</span></h2>
-        <div class="testimonials__slider">
-          <div class="testimonial">
-            <div class="testimonial__container">
-              <div class="testimonial__img">
-                <img src="img/testimonial.png" alt="testimonial">
+      <!-- /.container -->
+    </section>
+    <!-- /.section works -->
+  
+    <section class="section section--grey">
+      <div class="container">
+        <div class="testimonials"> 
+          <h2 class="wow animate__fadeInUp">Customer Testimonials <span class="text--red">.</span></h2>
+          <div class="testimonials__slider wow animate__fadeInLeft">
+            <div class="testimonial">
+              <div class="testimonial__container">
+                <div class="testimonial__img">
+                  <img src="img/testimonial.png" alt="testimonial">
+                </div>
+                <!-- /.testimonial__img -->
+                <div class="testimonial__description">
+                  <h6 class="text--center testimonial__name">Sarah Smith</h6>
+                  <div class="text text--center testimonial__dev">Operations Team</div>
+                </div>
+                <!-- /.testimonial__description -->
+                <img class="testimonial__quote" src="img/quote.png" alt="quote">
+                <div class="text testimonial__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</div>
               </div>
-              <!-- /.testimonial__img -->
-              <div class="testimonial__description">
-                <h6 class="text--center testimonial__name">Sarah Smith</h6>
-                <div class="text text--center testimonial__dev">Operations Team</div>
-              </div>
-              <!-- /.testimonial__description -->
-              <img class="testimonial__quote" src="img/quote.png" alt="quote">
-              <div class="text testimonial__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</div>
             </div>
-          </div>
-          <!-- /.testimonial -->
-          <div class="testimonial">
-            <div class="testimonial__container">
-              <div class="testimonial__img">
-                <img src="img/testimonial.png" alt="testimonial">
+            <!-- /.testimonial -->
+            <div class="testimonial">
+              <div class="testimonial__container">
+                <div class="testimonial__img">
+                  <img src="img/testimonial.png" alt="testimonial">
+                </div>
+                <!-- /.testimonial__img -->
+                <div class="testimonial__description">
+                  <h6 class="text--center testimonial__name">Sarah Smith</h6>
+                  <div class="text text--center testimonial__dev">Operations Team</div>
+                </div>
+                <!-- /.testimonial__description -->
+                <img class="testimonial__quote" src="img/quote.png" alt="quote">
+                <div class="text testimonial__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</div>
               </div>
-              <!-- /.testimonial__img -->
-              <div class="testimonial__description">
-                <h6 class="text--center testimonial__name">Sarah Smith</h6>
-                <div class="text text--center testimonial__dev">Operations Team</div>
-              </div>
-              <!-- /.testimonial__description -->
-              <img class="testimonial__quote" src="img/quote.png" alt="quote">
-              <div class="text testimonial__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</div>
             </div>
-          </div>
-          <!-- /.testimonial -->
-          <div class="testimonial">
-            <div class="testimonial__container">
-              <div class="testimonial__img">
-                <img src="img/testimonial.png" alt="testimonial">
+            <!-- /.testimonial -->
+            <div class="testimonial">
+              <div class="testimonial__container">
+                <div class="testimonial__img">
+                  <img src="img/testimonial.png" alt="testimonial">
+                </div>
+                <!-- /.testimonial__img -->
+                <div class="testimonial__description">
+                  <h6 class="text--center testimonial__name">Sarah Smith</h6>
+                  <div class="text text--center testimonial__dev">Operations Team</div>
+                </div>
+                <!-- /.testimonial__description -->
+                <img class="testimonial__quote" src="img/quote.png" alt="quote">
+                <div class="text testimonial__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</div>
               </div>
-              <!-- /.testimonial__img -->
-              <div class="testimonial__description">
-                <h6 class="text--center testimonial__name">Sarah Smith</h6>
-                <div class="text text--center testimonial__dev">Operations Team</div>
-              </div>
-              <!-- /.testimonial__description -->
-              <img class="testimonial__quote" src="img/quote.png" alt="quote">
-              <div class="text testimonial__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</div>
             </div>
+            <!-- /.testimonial -->
           </div>
-          <!-- /.testimonial -->
+          <!-- /.testimonials__slider -->
+          <div class="testimonials__nav wow animate__fadeInLeft"></div>
+          <!-- /.testimonials__nav -->
         </div>
-        <!-- /.testimonials__slider -->
-        <div class="testimonials__nav"></div>
-        <!-- /.testimonials__nav -->
+        <!-- /.testimonials -->
       </div>
-      <!-- /.testimonials -->
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /.section section--grey -->
+      <!-- /.container -->
+    </section>
+    <!-- /.section section--grey -->
+  
+    <section class="section contact">
+      <div class="container">
+        <h2 class="wow animate__fadeInUp">Let’s design your app <span class="text--red">.</span></h2>
+        <div class="wow animate__fadeInLeft">
+          <p>Let me know if you want to talk about a potential<br>
+            collaboration. I’m available for freelance work.</p>
+        </div>
+        <a class="btn contact__btn wow animate__fadeInUp animate__slow" href="#">Get in Touch</a>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section contact -->
+  </div>
+  <!-- /.wrapper -->
 
-  <section class="section contact">
-    <div class="container">
-      <h2>Let’s design your app <span class="text--red">.</span></h2>
-      <p>Let me know if you want to talk about a potential<br>
-        collaboration. I’m available for freelance work.</p>
-      <a class="btn contact__btn" href="#">Get in Touch</a>
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /.section contact -->
-
-  <footer class="footer">
+  <footer class="footer wow animate__fadeIn animate__slow">
     <div class="container">
       <div class="footer__row">
         <ul class="list-social">
-          <li class="list-social__li"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#facebook"></use></svg></a></li>
-          <li class="list-social__li"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#instagram"></use></svg></a></li>
-          <li class="list-social__li"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#twitter"></use></svg></a></li>
-          <li class="list-social__li"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#behance"></use></svg></a></li>
-          <li class="list-social__li"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#dribbble"></use></svg></a></li>
+          <li class="list-social__li wow animate__fadeInUp animate__faster"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#facebook"></use></svg></a></li>
+          <li class="list-social__li wow animate__fadeInUp animate__faster"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#instagram"></use></svg></a></li>
+          <li class="list-social__li wow animate__fadeInUp animate__faster"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#twitter"></use></svg></a></li>
+          <li class="list-social__li wow animate__fadeInUp animate__faster"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#behance"></use></svg></a></li>
+          <li class="list-social__li wow animate__fadeInUp animate__faster"><a class="list-social__link" href="#"><svg class="list-social__icon"><use xlink:href="img/social/sprite.svg#dribbble"></use></svg></a></li>
         </ul>
         <!-- /.list-social -->
-        <a href="/" class="logo text--white">
+        <a href="/" class="logo text--white wow animate__fadeInRight">
           <div class="logo__icon">
             <img src="img/mail.png" alt="mail">
           </div>
@@ -256,6 +265,7 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

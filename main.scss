@@ -15,6 +15,16 @@ $red-hover: #b1021c;
 
 /*
  * ==================================================================================
+ * animation
+ * ==================================================================================
+ */
+
+.animate__animated {
+  opacity: 0;
+}
+
+/*
+ * ==================================================================================
  * reset
  * ==================================================================================
  */
@@ -45,6 +55,13 @@ body {
   font-family: 'Karla', sans-serif;
   color: $text;
   min-width: 360px;
+  overflow-anchor: none;
+
+  &.ov-h {
+    @media (min-width: 1200px) {
+      padding-right: 17px;
+    }
+  }
 }
 
 .ov-h {
@@ -279,6 +296,7 @@ img {
     height: 100vh;
     background: $title;
     display: none;
+    z-index: 1000;
 
     ul {
       flex-direction: column;
@@ -315,6 +333,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+
+header {
+  background: $white;
+  z-index: 100;
   position: relative;
 }
 
