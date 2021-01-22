@@ -33,7 +33,7 @@ $(function() {
       closeMenu()
 
       $('.wrapper').removeClass('animate__fadeInUp animate__slower');
-      $('.wrapper').addClass('animate__fadeOutUp animate__slow');
+      $('.wrapper').addClass('animate__fadeOutUp');
       
       $('.wrapper').on('animationend webkitAnimationEnd oAnimationEnd', function () {
 
