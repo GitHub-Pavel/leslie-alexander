@@ -68,6 +68,11 @@ body {
   overflow: hidden;
 }
 
+.wrapper {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
 /*
  * ==================================================================================
  * text
@@ -829,6 +834,7 @@ header {
 .footer {
   padding: 46px 0;
   background: $title;
+  overflow: hidden;
 
   &__row {
     display: flex;
